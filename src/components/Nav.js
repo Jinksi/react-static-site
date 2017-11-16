@@ -11,6 +11,7 @@ const Nav = styled.nav`
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    color: inherit;
 
     &:hover,
     &.active {
