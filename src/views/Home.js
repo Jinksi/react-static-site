@@ -1,9 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import PageHeader from '../components/PageHeader'
 import PageContent from '../components/PageContent'
 
 const Home = (props) => (
   <div>
+    <Helmet>
+      <title>This is the Home Page title!</title>
+    </Helmet>
     <PageHeader title='Home Page' />
     <PageContent>
       <p>This site is built with React!</p>
